@@ -1,0 +1,415 @@
+[
+  {
+    "id": "domain-card-arcana-rune-ward",
+    "domainId": "domain-arcana",
+    "name": "Rune Ward",
+    "level": 1,
+    "recallCost": 0,
+    "type": "Ability",
+    "text": "Spend a Hope to trace a glowing rune around an ally within Close range. The next time that ally would take damage from a magical source, reduce the damage by an amount equal to your Spellcast trait + 2."
+  },
+  {
+    "id": "domain-card-arcana-unleash-chaos",
+    "domainId": "domain-arcana",
+    "name": "Unleash Chaos",
+    "level": 1,
+    "recallCost": 1,
+    "type": "Spell",
+    "text": "Make a spellcast roll against a target within Far range. On a success, deal d10 magic damage. On a roll with Fear, the GM may also have the chaotic magic spill into a nearby ally or feature within Close range of the target."
+  },
+  {
+    "id": "domain-card-arcana-wild-flare",
+    "domainId": "domain-arcana",
+    "name": "Wild Flare",
+    "level": 1,
+    "recallCost": 1,
+    "type": "Spell",
+    "text": "Make a spellcast roll against all adversaries within Close range. On a success, each affected adversary takes d6 magic damage and is briefly blinded by the flash; they have disadvantage on their next attack roll."
+  },
+  {
+    "id": "domain-card-arcana-volatile-sigils",
+    "domainId": "domain-arcana",
+    "name": "Volatile Sigils",
+    "level": 1,
+    "recallCost": 0,
+    "type": "Ability",
+    "text": "When you take a short rest, you may inscribe a single-use volatile sigil onto an object. When the sigil is triggered (by your word or by being broken), it deals d6 magic damage to anyone within Very Close range of it."
+  },
+  {
+    "id": "domain-card-arcana-arcane-sense",
+    "domainId": "domain-arcana",
+    "name": "Arcane Sense",
+    "level": 1,
+    "recallCost": 0,
+    "type": "Ability",
+    "text": "Spend a Hope to extend your senses through the local weave of magic. For the next scene, you can sense the presence and rough nature of any magical effect or item within Close range."
+  },
+
+  {
+    "id": "domain-card-blade-get-back-up",
+    "domainId": "domain-blade",
+    "name": "Get Back Up",
+    "level": 1,
+    "recallCost": 0,
+    "type": "Ability",
+    "text": "When you take Major damage, you may mark a Stress to remain standing and lose only a Hit Point as if you had taken Minor damage instead."
+  },
+  {
+    "id": "domain-card-blade-whirlwind",
+    "domainId": "domain-blade",
+    "name": "Whirlwind",
+    "level": 1,
+    "recallCost": 1,
+    "type": "Ability",
+    "text": "Mark a Stress to make a single attack roll against every adversary within Melee range. Each adversary you succeed against takes weapon damage; failures take no damage."
+  },
+  {
+    "id": "domain-card-blade-a-soldiers-bond",
+    "domainId": "domain-blade",
+    "name": "A Soldier's Bond",
+    "level": 1,
+    "recallCost": 1,
+    "type": "Ability",
+    "text": "Once per long rest, choose an ally within Close range and describe how you trust them at your back. For the remainder of the session, when either of you assists the other on a roll, both of you gain a Hope on a success."
+  },
+  {
+    "id": "domain-card-blade-reckless",
+    "domainId": "domain-blade",
+    "name": "Reckless",
+    "level": 1,
+    "recallCost": 1,
+    "type": "Ability",
+    "text": "Mark a Stress to gain advantage on your next attack roll. If your attack succeeds, you take 1d4 damage as you overcommit."
+  },
+  {
+    "id": "domain-card-blade-not-good-enough",
+    "domainId": "domain-blade",
+    "name": "Not Good Enough",
+    "level": 1,
+    "recallCost": 1,
+    "type": "Ability",
+    "text": "When you fail an attack roll against an adversary, you may mark a Stress to reroll your damage dice and use the new total if your attack would have succeeded by 1."
+  },
+
+  {
+    "id": "domain-card-bone-deft-maneuvers",
+    "domainId": "domain-bone",
+    "name": "Deft Maneuvers",
+    "level": 1,
+    "recallCost": 0,
+    "type": "Ability",
+    "text": "When you make a roll using Agility, you may spend a Hope to swap your Hope and Fear die results before resolving the roll."
+  },
+  {
+    "id": "domain-card-bone-i-see-it-coming",
+    "domainId": "domain-bone",
+    "name": "I See It Coming",
+    "level": 1,
+    "recallCost": 1,
+    "type": "Ability",
+    "text": "When an adversary makes an attack roll against you, you may mark a Stress to force them to reroll the attack and take the worse of the two results."
+  },
+  {
+    "id": "domain-card-bone-tactical-mind",
+    "domainId": "domain-bone",
+    "name": "Tactical Mind",
+    "level": 1,
+    "recallCost": 0,
+    "type": "Ability",
+    "text": "When you Help an Ally, instead of granting them a bonus die you may grant them a +3 bonus to their roll. Usable once per scene."
+  },
+  {
+    "id": "domain-card-bone-strategic-approach",
+    "domainId": "domain-bone",
+    "name": "Strategic Approach",
+    "level": 1,
+    "recallCost": 1,
+    "type": "Ability",
+    "text": "At the start of an encounter, spend a Hope to study the field. Describe how you read the situation. The GM tells you one useful, true fact about the encounter and you gain advantage on your first roll."
+  },
+  {
+    "id": "domain-card-bone-rangers-mark",
+    "domainId": "domain-bone",
+    "name": "Ranger's Mark",
+    "level": 1,
+    "recallCost": 1,
+    "type": "Ability",
+    "text": "Spend a Hope to mark a creature within Far range. While the mark is active, you know its general location at all times and gain a +1 bonus to damage rolls against it. The mark lasts until you rest or use this ability again."
+  },
+
+  {
+    "id": "domain-card-codex-book-of-ava",
+    "domainId": "domain-codex",
+    "name": "Book of Ava",
+    "level": 1,
+    "recallCost": 1,
+    "type": "Grimoire",
+    "text": "Once per session, when you read aloud from your grimoire, choose a spell card you have access to. For the next scene, you may cast that spell as if it were in your prepared loadout."
+  },
+  {
+    "id": "domain-card-codex-magic-missile",
+    "domainId": "domain-codex",
+    "name": "Magic Missile",
+    "level": 1,
+    "recallCost": 1,
+    "type": "Spell",
+    "text": "Make a spellcast roll against a target within Far range. On a success, deal d6+2 magic damage. This spell never misses if its roll succeeds."
+  },
+  {
+    "id": "domain-card-codex-glamour",
+    "domainId": "domain-codex",
+    "name": "Glamour",
+    "level": 1,
+    "recallCost": 0,
+    "type": "Spell",
+    "text": "Make a spellcast roll. On a success, alter one small detail of your appearance (hair color, eye color, a minor garment) for the next scene."
+  },
+  {
+    "id": "domain-card-codex-adjust-appearance",
+    "domainId": "domain-codex",
+    "name": "Adjust Appearance",
+    "level": 1,
+    "recallCost": 1,
+    "type": "Spell",
+    "text": "Spend a Hope and make a spellcast roll. On a success, completely change your appearance to that of another humanoid of similar size for the next scene. You retain your own voice unless you spend an additional Hope."
+  },
+  {
+    "id": "domain-card-codex-mage-hand",
+    "domainId": "domain-codex",
+    "name": "Mage Hand",
+    "level": 1,
+    "recallCost": 0,
+    "type": "Spell",
+    "text": "Conjure a spectral hand within Close range. It can manipulate small objects (under 5 lbs), open doors, pull levers, or deliver items, but cannot attack. The hand lasts until you dismiss it or you become incapacitated."
+  },
+
+  {
+    "id": "domain-card-grace-eyes-everywhere",
+    "domainId": "domain-grace",
+    "name": "Eyes Everywhere",
+    "level": 1,
+    "recallCost": 0,
+    "type": "Ability",
+    "text": "Spend a Hope to gain advantage on a roll to notice details about a crowd, a room, or a social situation. You may also describe one nonobvious, true fact you observe."
+  },
+  {
+    "id": "domain-card-grace-inspiring-word",
+    "domainId": "domain-grace",
+    "name": "Inspiring Word",
+    "level": 1,
+    "recallCost": 1,
+    "type": "Ability",
+    "text": "Choose an ally within Close range who can hear you. They may clear a Stress and gain a Hope. Usable once per scene per ally."
+  },
+  {
+    "id": "domain-card-grace-parry",
+    "domainId": "domain-grace",
+    "name": "Parry",
+    "level": 1,
+    "recallCost": 0,
+    "type": "Ability",
+    "text": "When an adversary within Melee range makes an attack against you, you may mark a Stress to add your Finesse to your Evasion against that attack."
+  },
+  {
+    "id": "domain-card-grace-friendly-word",
+    "domainId": "domain-grace",
+    "name": "Friendly Word",
+    "level": 1,
+    "recallCost": 1,
+    "type": "Ability",
+    "text": "Spend a Hope to attempt to defuse a hostile situation with words. Make a Presence roll; on a success, hostile NPCs hesitate to attack for the next round unless directly threatened."
+  },
+  {
+    "id": "domain-card-grace-drawn-attention",
+    "domainId": "domain-grace",
+    "name": "Drawn Attention",
+    "level": 1,
+    "recallCost": 1,
+    "type": "Ability",
+    "text": "Spend a Hope to make yourself the obvious target of all adversaries within Close range. Until the start of your next turn, attacks against allies within Close range have disadvantage."
+  },
+
+  {
+    "id": "domain-card-midnight-pick-and-pull",
+    "domainId": "domain-midnight",
+    "name": "Pick and Pull",
+    "level": 1,
+    "recallCost": 0,
+    "type": "Ability",
+    "text": "Gain advantage on rolls to pick locks, pick pockets, or disable mundane mechanical devices. You may attempt these actions even without proper tools, with a -1 penalty."
+  },
+  {
+    "id": "domain-card-midnight-shadow-step",
+    "domainId": "domain-midnight",
+    "name": "Shadow Step",
+    "level": 1,
+    "recallCost": 1,
+    "type": "Ability",
+    "text": "Spend a Hope to step from one shadow into another within Close range. You arrive hidden if no enemy has a direct line of sight to your destination."
+  },
+  {
+    "id": "domain-card-midnight-uncanny-disguise",
+    "domainId": "domain-midnight",
+    "name": "Uncanny Disguise",
+    "level": 1,
+    "recallCost": 1,
+    "type": "Ability",
+    "text": "When you take a short rest, you may craft a disguise. For the next scene, you gain advantage on rolls to avoid being recognized by anyone who does not know you well."
+  },
+  {
+    "id": "domain-card-midnight-fleeting-shadow",
+    "domainId": "domain-midnight",
+    "name": "Fleeting Shadow",
+    "level": 1,
+    "recallCost": 0,
+    "type": "Ability",
+    "text": "When you move out of an enemy's line of sight, you may mark a Stress to become hidden, even without obvious cover, until the start of your next turn."
+  },
+  {
+    "id": "domain-card-midnight-cloak-of-shadows",
+    "domainId": "domain-midnight",
+    "name": "Cloak of Shadows",
+    "level": 1,
+    "recallCost": 1,
+    "type": "Spell",
+    "text": "Make a spellcast roll. On a success, you are wrapped in shadow for the next scene; you gain a +2 bonus to rolls to hide or move silently. Bright light dispels the effect."
+  },
+
+  {
+    "id": "domain-card-sage-natures-tongue",
+    "domainId": "domain-sage",
+    "name": "Nature's Tongue",
+    "level": 1,
+    "recallCost": 0,
+    "type": "Spell",
+    "text": "You can converse simply with beasts and plants for the next scene. They share what their senses have perceived but understand only concepts within their natural experience."
+  },
+  {
+    "id": "domain-card-sage-vicious-entangle",
+    "domainId": "domain-sage",
+    "name": "Vicious Entangle",
+    "level": 1,
+    "recallCost": 1,
+    "type": "Spell",
+    "text": "Make a spellcast roll against a target within Close range. On a success, vines burst from the ground; the target takes d6 magic damage and is restrained until they spend an action to break free."
+  },
+  {
+    "id": "domain-card-sage-conjure-swarm",
+    "domainId": "domain-sage",
+    "name": "Conjure Swarm",
+    "level": 1,
+    "recallCost": 1,
+    "type": "Spell",
+    "text": "Make a spellcast roll against all adversaries within Very Close range. On a success, each affected adversary takes d4 magic damage and has disadvantage on their next attack as biting insects swarm them."
+  },
+  {
+    "id": "domain-card-sage-wild-fortitude",
+    "domainId": "domain-sage",
+    "name": "Wild Fortitude",
+    "level": 1,
+    "recallCost": 1,
+    "type": "Spell",
+    "text": "Choose an ally within Close range. Make a spellcast roll; on a success, that ally clears a Hit Point or 2 Stress."
+  },
+  {
+    "id": "domain-card-sage-gifted-tracker",
+    "domainId": "domain-sage",
+    "name": "Gifted Tracker",
+    "level": 1,
+    "recallCost": 0,
+    "type": "Ability",
+    "text": "You have advantage on rolls to track creatures through any natural environment. After 10 minutes of investigation, you can describe what passed through an area in the last day."
+  },
+
+  {
+    "id": "domain-card-splendor-bolt-beacon",
+    "domainId": "domain-splendor",
+    "name": "Bolt Beacon",
+    "level": 1,
+    "recallCost": 1,
+    "type": "Spell",
+    "text": "Make a spellcast roll against a target within Far range. On a success, deal d8 magic damage and mark the target with shining light; the next attack roll against the target gains a +2 bonus."
+  },
+  {
+    "id": "domain-card-splendor-reassurance",
+    "domainId": "domain-splendor",
+    "name": "Reassurance",
+    "level": 1,
+    "recallCost": 0,
+    "type": "Spell",
+    "text": "Spend a Hope to soothe an ally within Close range with a gentle word and a touch of light. They clear a Stress."
+  },
+  {
+    "id": "domain-card-splendor-heal",
+    "domainId": "domain-splendor",
+    "name": "Heal",
+    "level": 1,
+    "recallCost": 1,
+    "type": "Spell",
+    "text": "Spend a Hope and make a spellcast roll. On a success, an ally within Close range clears 1 Hit Point. On a critical success, they clear 2 Hit Points instead."
+  },
+  {
+    "id": "domain-card-splendor-healing-hands",
+    "domainId": "domain-splendor",
+    "name": "Healing Hands",
+    "level": 1,
+    "recallCost": 1,
+    "type": "Spell",
+    "text": "Lay your hands on an ally within Melee range and spend a Hope. They clear 2 Hit Points or 2 Stress (their choice)."
+  },
+  {
+    "id": "domain-card-splendor-sanctuary",
+    "domainId": "domain-splendor",
+    "name": "Sanctuary",
+    "level": 1,
+    "recallCost": 1,
+    "type": "Spell",
+    "text": "Make a spellcast roll. On a success, a 5-foot radius around you becomes hallowed ground for the next scene; allies within it gain a +1 bonus to rolls to clear Stress, and undead suffer a -1 penalty to attacks against anyone inside."
+  },
+
+  {
+    "id": "domain-card-valor-bare-bones",
+    "domainId": "domain-valor",
+    "name": "Bare Bones",
+    "level": 1,
+    "recallCost": 0,
+    "type": "Ability",
+    "text": "When you are not wearing armor, you may add half your Strength (rounded down) to your Evasion."
+  },
+  {
+    "id": "domain-card-valor-bold-presence",
+    "domainId": "domain-valor",
+    "name": "Bold Presence",
+    "level": 1,
+    "recallCost": 0,
+    "type": "Ability",
+    "text": "You have advantage on rolls to intimidate adversaries that are aware of your reputation, your title, or a recent victory of yours."
+  },
+  {
+    "id": "domain-card-valor-forceful-push",
+    "domainId": "domain-valor",
+    "name": "Forceful Push",
+    "level": 1,
+    "recallCost": 1,
+    "type": "Ability",
+    "text": "When you succeed on a melee attack, you may mark a Stress to knock the target back one zone. If they collide with terrain or another creature, they take an additional 1d4 damage."
+  },
+  {
+    "id": "domain-card-valor-hold-the-line",
+    "domainId": "domain-valor",
+    "name": "Hold the Line",
+    "level": 1,
+    "recallCost": 1,
+    "type": "Ability",
+    "text": "When an adversary tries to move past you in Melee range, you may mark a Stress to stop them; they end their movement adjacent to you instead."
+  },
+  {
+    "id": "domain-card-valor-i-am-your-shield",
+    "domainId": "domain-valor",
+    "name": "I Am Your Shield",
+    "level": 1,
+    "recallCost": 1,
+    "type": "Ability",
+    "text": "When an ally within Close range takes damage, you may spend a Hope to interpose; the damage is dealt to you instead, and you gain a +2 bonus to your damage thresholds against this attack."
+  }
+]

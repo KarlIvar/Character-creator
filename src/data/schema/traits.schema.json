@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/daggerheart/traits.schema.json",
+  "title": "Traits",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["names", "assignmentArray"],
+  "properties": {
+    "names": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["Agility", "Strength", "Finesse", "Instinct", "Presence", "Knowledge"] },
+      "minItems": 6,
+      "maxItems": 6,
+      "uniqueItems": true
+    },
+    "assignmentArray": {
+      "type": "array",
+      "items": { "type": "integer" },
+      "description": "The fixed array of modifiers a player distributes across the six traits at character creation."
+    },
+    "notes": { "type": "string" }
+  }
+}

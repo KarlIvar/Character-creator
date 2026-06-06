@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/daggerheart/equipment.schema.json",
+  "title": "Equipment",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["primaryWeapons", "secondaryWeapons", "armor", "items"],
+  "properties": {
+    "primaryWeapons": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/weapon" }
+    },
+    "secondaryWeapons": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/weapon" }
+    },
+    "armor": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/armor" }
+    },
+    "items": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/item" }
+    }
+  },
+  "$defs": {
+    "weapon": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "tier", "trait", "range", "damageDice", "damageType", "burden"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "name": { "type": "string" },
+        "tier": { "type": "integer", "minimum": 1, "maximum": 4 },
+        "trait": { "type": "string", "enum": ["Agility", "Strength", "Finesse", "Instinct", "Presence", "Knowledge"] },
+        "range": { "type": "string", "enum": ["Melee", "Very Close", "Close", "Far", "Very Far"] },
+        "damageDice": { "type": "string", "description": "e.g. d8, d10, 2d6+1" },
+        "damageType": { "type": "string", "enum": ["phy", "mag"] },
+        "burden": { "type": "string", "enum": ["One-Handed", "Two-Handed"] },
+        "feature": { "type": "string" }
+      }
+    },
+    "armor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "tier", "baseThresholds", "baseScore"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "name": { "type": "string" },
+        "tier": { "type": "integer", "minimum": 1, "maximum": 4 },
+        "baseThresholds": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["major", "severe"],
+          "properties": {
+            "major": { "type": "integer" },
+            "severe": { "type": "integer" }
+          }
+        },
+        "baseScore": { "type": "integer", "minimum": 0 },
+        "feature": { "type": "string" }
+      }
+    },
+    "item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "name": { "type": "string" },
+        "description": { "type": "string" }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Editor
+.DS_Store
+.vscode/
+.idea/
+
+# Build artifacts (introduced by Thread 2)
+dist/
+build/

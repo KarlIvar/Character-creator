@@ -1,0 +1,83 @@
+[
+  {
+    "id": "community-highborne",
+    "name": "Highborne",
+    "description": "You grew up among the wealthy and powerful — a noble household, a merchant dynasty, or a temple's inner circle. You learned the manners of court, the weight of titles, and the cost of a public reputation.",
+    "feature": {
+      "name": "Privilege",
+      "text": "You have advantage on rolls to consort with nobles, royalty, and other high-ranking members of society."
+    }
+  },
+  {
+    "id": "community-loreborne",
+    "name": "Loreborne",
+    "description": "You grew up in a community devoted to learning — a great library, a scholarly order, a guild of cartographers, or a monastery whose monks copy histories by candlelight.",
+    "feature": {
+      "name": "Well-Read",
+      "text": "You have advantage on rolls to recall historical, cultural, or academic knowledge that your community would have preserved."
+    }
+  },
+  {
+    "id": "community-orderborne",
+    "name": "Orderborne",
+    "description": "You grew up within a strict, hierarchical group — a knightly order, a martial school, a religious sect, or a guild bound by oath. You know the comfort and weight of a rigid code.",
+    "feature": {
+      "name": "Dedicated",
+      "text": "At the start of each session, choose one tenet of your code. While you act in accordance with that tenet, you may spend Hope to gain bonuses as if you had additional Hope."
+    }
+  },
+  {
+    "id": "community-ridgeborne",
+    "name": "Ridgeborne",
+    "description": "You grew up in the mountains — among high passes, narrow trails, and folk who measure the year by snowfall. You know how to read weather, stone, and silence.",
+    "feature": {
+      "name": "Steady",
+      "text": "You have advantage on rolls to traverse mountainous, rocky, or high-altitude terrain, and to keep your footing on uncertain ground."
+    }
+  },
+  {
+    "id": "community-seaborne",
+    "name": "Seaborne",
+    "description": "You grew up on or beside the sea — a fishing village, a port town, a caravel that never quite finished its last voyage. Salt and tide shaped you as much as any kin.",
+    "feature": {
+      "name": "Know the Tide",
+      "text": "You can describe the tides, currents, and weather of any sea or large river you have visited before, and gain advantage on rolls to sail, swim, or navigate water."
+    }
+  },
+  {
+    "id": "community-slyborne",
+    "name": "Slyborne",
+    "description": "You grew up in a community that thrived on cleverness and stealth — a thieves' guild, a smuggling family, a network of fences, or any group that succeeds by not being seen.",
+    "feature": {
+      "name": "Scoundrel",
+      "text": "You have advantage on rolls to deceive, swindle, or barter in your favor when interacting with someone who does not know your reputation."
+    }
+  },
+  {
+    "id": "community-underborne",
+    "name": "Underborne",
+    "description": "You grew up beneath the surface — a deep city, a network of caverns, a sunless district. You read shadow and stone the way other folk read sun and sky.",
+    "feature": {
+      "name": "Low-Light Living",
+      "text": "You can see clearly in dim light and have advantage on rolls to navigate, hide, or move silently in dark or confined spaces."
+    }
+  },
+  {
+    "id": "community-wanderborne",
+    "name": "Wanderborne",
+    "description": "You grew up on the road — a traveling caravan, a roving troupe, a family without a fixed home. You learned a hundred small kindnesses and how to be at ease as a stranger.",
+    "feature": {
+      "name": "Nomadic Pack",
+      "text": "Add a Nomadic Pack to your inventory. Once per session you may pull one mundane, useful item from the pack as if you had thought to bring it; describe what it is when you draw it."
+    }
+  },
+  {
+    "id": "community-wildborne",
+    "name": "Wildborne",
+    "description": "You grew up far from settled places — deep forests, open plains, untamed reaches. You know which berries to eat, which tracks to follow, and which silences mean danger.",
+    "feature": {
+      "name": "Lightfoot",
+      "text": "You have advantage on rolls to move quietly or to remain unseen in natural environments."
+    }
+  }
+]

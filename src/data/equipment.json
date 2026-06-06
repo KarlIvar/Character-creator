@@ -1,0 +1,318 @@
+{
+  "primaryWeapons": [
+    {
+      "id": "weapon-shortsword",
+      "name": "Shortsword",
+      "tier": 1,
+      "trait": "Agility",
+      "range": "Melee",
+      "damageDice": "d8",
+      "damageType": "phy",
+      "burden": "One-Handed"
+    },
+    {
+      "id": "weapon-rapier",
+      "name": "Rapier",
+      "tier": 1,
+      "trait": "Finesse",
+      "range": "Melee",
+      "damageDice": "d8",
+      "damageType": "phy",
+      "burden": "One-Handed",
+      "feature": "Quick: When you make an attack roll with this weapon, you can spend a Hope to gain advantage on the roll."
+    },
+    {
+      "id": "weapon-dagger",
+      "name": "Dagger",
+      "tier": 1,
+      "trait": "Finesse",
+      "range": "Melee",
+      "damageDice": "d8",
+      "damageType": "phy",
+      "burden": "One-Handed"
+    },
+    {
+      "id": "weapon-cutlass",
+      "name": "Cutlass",
+      "tier": 1,
+      "trait": "Presence",
+      "range": "Melee",
+      "damageDice": "d8",
+      "damageType": "phy",
+      "burden": "One-Handed"
+    },
+    {
+      "id": "weapon-hand-crossbow",
+      "name": "Hand Crossbow",
+      "tier": 1,
+      "trait": "Finesse",
+      "range": "Close",
+      "damageDice": "d6",
+      "damageType": "phy",
+      "burden": "One-Handed"
+    },
+    {
+      "id": "weapon-throwing-daggers",
+      "name": "Throwing Daggers",
+      "tier": 1,
+      "trait": "Finesse",
+      "range": "Close",
+      "damageDice": "d8",
+      "damageType": "phy",
+      "burden": "One-Handed"
+    },
+    {
+      "id": "weapon-wand",
+      "name": "Wand",
+      "tier": 1,
+      "trait": "Knowledge",
+      "range": "Far",
+      "damageDice": "d6",
+      "damageType": "mag",
+      "burden": "One-Handed"
+    },
+    {
+      "id": "weapon-whip",
+      "name": "Whip",
+      "tier": 1,
+      "trait": "Presence",
+      "range": "Very Close",
+      "damageDice": "d6",
+      "damageType": "phy",
+      "burden": "One-Handed"
+    },
+    {
+      "id": "weapon-quarterstaff",
+      "name": "Quarterstaff",
+      "tier": 1,
+      "trait": "Instinct",
+      "range": "Melee",
+      "damageDice": "d10",
+      "damageType": "phy",
+      "burden": "Two-Handed"
+    },
+    {
+      "id": "weapon-longsword",
+      "name": "Longsword",
+      "tier": 1,
+      "trait": "Agility",
+      "range": "Melee",
+      "damageDice": "d10",
+      "damageType": "phy",
+      "burden": "Two-Handed"
+    },
+    {
+      "id": "weapon-battleaxe",
+      "name": "Battleaxe",
+      "tier": 1,
+      "trait": "Strength",
+      "range": "Melee",
+      "damageDice": "d10",
+      "damageType": "phy",
+      "burden": "Two-Handed"
+    },
+    {
+      "id": "weapon-greatsword",
+      "name": "Greatsword",
+      "tier": 1,
+      "trait": "Strength",
+      "range": "Melee",
+      "damageDice": "d10",
+      "damageType": "phy",
+      "burden": "Two-Handed",
+      "feature": "Massive: -1 to Evasion while wielded."
+    },
+    {
+      "id": "weapon-mace",
+      "name": "Mace",
+      "tier": 1,
+      "trait": "Strength",
+      "range": "Melee",
+      "damageDice": "d10",
+      "damageType": "phy",
+      "burden": "Two-Handed"
+    },
+    {
+      "id": "weapon-warhammer",
+      "name": "Warhammer",
+      "tier": 1,
+      "trait": "Strength",
+      "range": "Melee",
+      "damageDice": "d10",
+      "damageType": "phy",
+      "burden": "Two-Handed"
+    },
+    {
+      "id": "weapon-halberd",
+      "name": "Halberd",
+      "tier": 1,
+      "trait": "Strength",
+      "range": "Melee",
+      "damageDice": "d10",
+      "damageType": "phy",
+      "burden": "Two-Handed",
+      "feature": "Reach: This weapon attacks at Very Close range as well as Melee."
+    },
+    {
+      "id": "weapon-crossbow",
+      "name": "Crossbow",
+      "tier": 1,
+      "trait": "Finesse",
+      "range": "Far",
+      "damageDice": "d8",
+      "damageType": "phy",
+      "burden": "Two-Handed"
+    },
+    {
+      "id": "weapon-longbow",
+      "name": "Longbow",
+      "tier": 1,
+      "trait": "Agility",
+      "range": "Far",
+      "damageDice": "d8",
+      "damageType": "phy",
+      "burden": "Two-Handed"
+    },
+    {
+      "id": "weapon-staff",
+      "name": "Staff",
+      "tier": 1,
+      "trait": "Instinct",
+      "range": "Far",
+      "damageDice": "d8",
+      "damageType": "mag",
+      "burden": "Two-Handed"
+    },
+    {
+      "id": "weapon-greatbow",
+      "name": "Greatbow",
+      "tier": 1,
+      "trait": "Strength",
+      "range": "Far",
+      "damageDice": "d10",
+      "damageType": "phy",
+      "burden": "Two-Handed",
+      "feature": "Massive: -1 to Evasion while wielded."
+    }
+  ],
+  "secondaryWeapons": [
+    {
+      "id": "weapon-small-dagger",
+      "name": "Small Dagger",
+      "tier": 1,
+      "trait": "Finesse",
+      "range": "Melee",
+      "damageDice": "d4",
+      "damageType": "phy",
+      "burden": "One-Handed"
+    },
+    {
+      "id": "weapon-shortbow",
+      "name": "Shortbow",
+      "tier": 1,
+      "trait": "Agility",
+      "range": "Far",
+      "damageDice": "d6",
+      "damageType": "phy",
+      "burden": "One-Handed"
+    },
+    {
+      "id": "weapon-throwing-knives",
+      "name": "Throwing Knives",
+      "tier": 1,
+      "trait": "Finesse",
+      "range": "Close",
+      "damageDice": "d6",
+      "damageType": "phy",
+      "burden": "One-Handed"
+    },
+    {
+      "id": "weapon-round-shield",
+      "name": "Round Shield",
+      "tier": 1,
+      "trait": "Strength",
+      "range": "Melee",
+      "damageDice": "d4",
+      "damageType": "phy",
+      "burden": "One-Handed",
+      "feature": "Bulwark: Gain a +1 bonus to your damage thresholds while wielded."
+    },
+    {
+      "id": "weapon-tower-shield",
+      "name": "Tower Shield",
+      "tier": 1,
+      "trait": "Strength",
+      "range": "Melee",
+      "damageDice": "d4",
+      "damageType": "phy",
+      "burden": "One-Handed",
+      "feature": "Bulwark: Gain a +2 bonus to your damage thresholds while wielded; -1 to Evasion."
+    },
+    {
+      "id": "weapon-buckler",
+      "name": "Buckler",
+      "tier": 1,
+      "trait": "Strength",
+      "range": "Melee",
+      "damageDice": "d4",
+      "damageType": "phy",
+      "burden": "One-Handed",
+      "feature": "Bulwark: Gain a +1 bonus to your damage thresholds while wielded."
+    }
+  ],
+  "armor": [
+    {
+      "id": "armor-gambeson",
+      "name": "Gambeson Armor",
+      "tier": 1,
+      "baseThresholds": { "major": 5, "severe": 11 },
+      "baseScore": 3,
+      "feature": "Flexible: +1 to Evasion."
+    },
+    {
+      "id": "armor-leather",
+      "name": "Leather Armor",
+      "tier": 1,
+      "baseThresholds": { "major": 6, "severe": 13 },
+      "baseScore": 3
+    },
+    {
+      "id": "armor-chainmail",
+      "name": "Chainmail Armor",
+      "tier": 1,
+      "baseThresholds": { "major": 7, "severe": 15 },
+      "baseScore": 4,
+      "feature": "Heavy: -1 to Evasion."
+    },
+    {
+      "id": "armor-full-plate",
+      "name": "Full Plate Armor",
+      "tier": 1,
+      "baseThresholds": { "major": 8, "severe": 17 },
+      "baseScore": 4,
+      "feature": "Very Heavy: -2 to Evasion; -1 to Agility."
+    }
+  ],
+  "items": [
+    { "id": "item-torch", "name": "Torch" },
+    { "id": "item-bedroll", "name": "Bedroll" },
+    { "id": "item-rations", "name": "Rations (3 days)" },
+    { "id": "item-waterskin", "name": "Waterskin" },
+    { "id": "item-rope-50ft", "name": "Rope (50 ft)" },
+    { "id": "item-lantern", "name": "Lantern and Oil" },
+    { "id": "item-backpack", "name": "Backpack" },
+    { "id": "item-minor-healing-potion", "name": "Minor Healing Potion", "description": "Drink to clear 1d4 Hit Points." },
+    { "id": "item-minor-stamina-potion", "name": "Minor Stamina Potion", "description": "Drink to clear 1d4 Stress." },
+    { "id": "item-whetstone", "name": "Whetstone" },
+    { "id": "item-book-of-spells", "name": "Book of Spells", "description": "A bound volume in which a caster records studied spells." },
+    { "id": "item-holy-symbol", "name": "Holy Symbol" },
+    { "id": "item-musical-instrument", "name": "Musical Instrument" },
+    { "id": "item-romantic-poetry", "name": "Romantic Poetry" },
+    { "id": "item-charcoal-and-parchment", "name": "Charcoal and Parchment" },
+    { "id": "item-deck-of-cards", "name": "Deck of Cards" },
+    { "id": "item-set-of-bones", "name": "Set of Bones", "description": "A small bag of carved bones used for divination or games of chance." },
+    { "id": "item-trophy-from-fallen-foe", "name": "Trophy from a Fallen Foe" },
+    { "id": "item-grappling-hook", "name": "Grappling Hook" },
+    { "id": "item-mysterious-trinket", "name": "Mysterious Trinket", "description": "A small object whose purpose only its owner knows." }
+  ]
+}

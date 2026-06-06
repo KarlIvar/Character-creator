@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/daggerheart/communities.schema.json",
+  "title": "Communities",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["id", "name", "description", "feature"],
+    "properties": {
+      "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+      "name": { "type": "string" },
+      "description": { "type": "string" },
+      "feature": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "text"],
+        "properties": {
+          "name": { "type": "string" },
+          "text": { "type": "string" }
+        }
+      }
+    }
+  }
+}

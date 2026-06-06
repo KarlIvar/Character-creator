@@ -1,0 +1,47 @@
+[
+  {
+    "id": "domain-arcana",
+    "name": "Arcana",
+    "description": "The domain of innate and elemental magic. Arcana wielders shape raw arcane forces — fire, storm, time, and otherwise — through instinct and force of will rather than study."
+  },
+  {
+    "id": "domain-blade",
+    "name": "Blade",
+    "description": "The domain of weapons and warfare. Blade wielders excel at dealing damage in melee or at range, turning martial skill into devastating attacks."
+  },
+  {
+    "id": "domain-bone",
+    "name": "Bone",
+    "description": "The domain of hunters, scouts, and tacticians. Bone wielders read the battlefield, move with precision, and exploit the rhythms of combat."
+  },
+  {
+    "id": "domain-codex",
+    "name": "Codex",
+    "description": "The domain of learned magic and arcane texts. Codex wielders study and recall ancient writings, weaving their lore into measured, deliberate spells."
+  },
+  {
+    "id": "domain-grace",
+    "name": "Grace",
+    "description": "The domain of charm, performance, and social maneuvering. Grace wielders move through crowds and conversations with calculated ease."
+  },
+  {
+    "id": "domain-midnight",
+    "name": "Midnight",
+    "description": "The domain of stealth, shadow, and secrets. Midnight wielders strike from concealment, slip past attention, and bend shadow to their will."
+  },
+  {
+    "id": "domain-sage",
+    "name": "Sage",
+    "description": "The domain of nature, growth, and the wild. Sage wielders draw on the living world — plants, beasts, and the cycles of the wild — for both insight and power."
+  },
+  {
+    "id": "domain-splendor",
+    "name": "Splendor",
+    "description": "The domain of light, healing, and renewal. Splendor wielders mend wounds, banish darkness, and shore up the spirits of their allies."
+  },
+  {
+    "id": "domain-valor",
+    "name": "Valor",
+    "description": "The domain of protection, courage, and resilience. Valor wielders shield their allies, take blows meant for others, and inspire their companions to hold the line."
+  }
+]
