@@ -1,0 +1,10 @@
+dist
+node_modules
+coverage
+package-lock.json
+
+# Thread 1 outputs — frozen, formatting owned by Thread 1.
+src/data/**
+scripts/validate-data.mjs
+ATTRIBUTION.md
+LICENSE
