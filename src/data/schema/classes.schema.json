@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/daggerheart/classes.schema.json",
+  "title": "Classes",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id", "name", "description", "domains",
+      "startingEvasion", "startingHitPoints",
+      "classFeature", "hopeFeature",
+      "suggestedPrimaryWeapons", "suggestedSecondaryWeapons", "suggestedArmor", "startingInventory"
+    ],
+    "properties": {
+      "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+      "name": { "type": "string" },
+      "description": { "type": "string" },
+      "domains": {
+        "type": "array",
+        "items": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "minItems": 2,
+        "maxItems": 2,
+        "uniqueItems": true
+      },
+      "startingEvasion": { "type": "integer", "minimum": 1 },
+      "startingHitPoints": { "type": "integer", "minimum": 1 },
+      "classFeature": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "text"],
+        "properties": {
+          "name": { "type": "string" },
+          "text": { "type": "string" }
+        }
+      },
+      "hopeFeature": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "text"],
+        "properties": {
+          "name": { "type": "string" },
+          "text": { "type": "string" }
+        }
+      },
+      "suggestedPrimaryWeapons": {
+        "type": "array",
+        "items": { "type": "string", "pattern": "^[a-z0-9-]+$" }
+      },
+      "suggestedSecondaryWeapons": {
+        "type": "array",
+        "items": { "type": "string", "pattern": "^[a-z0-9-]+$" }
+      },
+      "suggestedArmor": {
+        "type": "array",
+        "items": { "type": "string", "pattern": "^[a-z0-9-]+$" }
+      },
+      "startingInventory": {
+        "type": "array",
+        "items": { "type": "string", "pattern": "^[a-z0-9-]+$" }
+      }
+    }
+  }
+}

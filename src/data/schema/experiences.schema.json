@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/daggerheart/experiences.schema.json",
+  "title": "Experiences",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["guidance", "startingBonus", "startingCount", "examples"],
+  "properties": {
+    "guidance": { "type": "string", "description": "SRD prose describing how Experiences work." },
+    "startingBonus": { "type": "integer", "description": "Modifier added when an Experience applies to a roll (typically +2)." },
+    "startingCount": { "type": "integer", "description": "How many Experiences a level-1 character picks (typically 2)." },
+    "examples": {
+      "type": "array",
+      "description": "Curated example Experiences usable by the random generator.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "name"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "name": { "type": "string" },
+          "category": { "type": "string", "description": "Loose grouping (background, profession, skill, etc.) — informational only." }
+        }
+      }
+    }
+  }
+}

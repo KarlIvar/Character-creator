@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/daggerheart/subclasses.schema.json",
+  "title": "Subclasses",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["id", "classId", "name", "foundationFeatures", "specializationFeatures", "masteryFeatures"],
+    "properties": {
+      "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+      "classId": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+      "name": { "type": "string" },
+      "spellcastTrait": {
+        "type": ["string", "null"],
+        "enum": ["Agility", "Strength", "Finesse", "Instinct", "Presence", "Knowledge", null]
+      },
+      "foundationFeatures": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["name", "text"],
+          "properties": {
+            "name": { "type": "string" },
+            "text": { "type": "string" }
+          }
+        }
+      },
+      "specializationFeatures": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["name", "text"],
+          "properties": {
+            "name": { "type": "string" },
+            "text": { "type": "string" }
+          }
+        }
+      },
+      "masteryFeatures": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["name", "text"],
+          "properties": {
+            "name": { "type": "string" },
+            "text": { "type": "string" }
+          }
+        }
+      }
+    }
+  }
+}

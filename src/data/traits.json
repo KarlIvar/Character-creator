@@ -1,0 +1,5 @@
+{
+  "names": ["Agility", "Strength", "Finesse", "Instinct", "Presence", "Knowledge"],
+  "assignmentArray": [2, 1, 1, 0, 0, -1],
+  "notes": "At character creation, assign each of the modifiers in assignmentArray to a different trait. The modifiers must be assigned to distinct traits; no trait gets more than one."
+}

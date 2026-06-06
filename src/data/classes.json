@@ -1,0 +1,182 @@
+[
+  {
+    "id": "class-bard",
+    "name": "Bard",
+    "description": "Bards are charismatic performers and storytellers whose voice and presence rally allies and unbalance foes. They draw on the domains of Grace and Codex — social grace and the lore that gives words their power.",
+    "domains": ["domain-codex", "domain-grace"],
+    "startingEvasion": 10,
+    "startingHitPoints": 5,
+    "classFeature": {
+      "name": "Rally",
+      "text": "When you make a roll to inspire, taunt, or distract a creature, you can spend a Hope to give an ally within Close range an additional Hope, which they may spend on their next roll."
+    },
+    "hopeFeature": {
+      "name": "Make a Scene",
+      "text": "Spend 3 Hope to temporarily distract a target within Far range, giving them a -2 penalty to their next reaction roll."
+    },
+    "suggestedPrimaryWeapons": ["weapon-rapier", "weapon-shortsword", "weapon-hand-crossbow"],
+    "suggestedSecondaryWeapons": ["weapon-small-dagger", "weapon-shortbow"],
+    "suggestedArmor": ["armor-gambeson", "armor-leather"],
+    "startingInventory": ["item-backpack", "item-bedroll", "item-rations", "item-musical-instrument", "item-minor-healing-potion", "item-romantic-poetry"]
+  },
+  {
+    "id": "class-druid",
+    "name": "Druid",
+    "description": "Druids are guardians of the natural world whose magic flows from the cycles of growth, decay, and renewal. They draw on the domains of Sage and Arcana to shape the wild and walk in the shape of beasts.",
+    "domains": ["domain-sage", "domain-arcana"],
+    "startingEvasion": 10,
+    "startingHitPoints": 6,
+    "classFeature": {
+      "name": "Beastform",
+      "text": "Spend a Hope to transform into a beast you have studied. While in beastform, your physical traits and damage are determined by the beast; you retain your own mental traits and your Stress, Hope, and Hit Points."
+    },
+    "hopeFeature": {
+      "name": "Evolution",
+      "text": "Spend 3 Hope to gain advantage on a roll that uses Strength, Agility, or Instinct as you channel the wild for an extra burst of vitality."
+    },
+    "suggestedPrimaryWeapons": ["weapon-staff", "weapon-quarterstaff"],
+    "suggestedSecondaryWeapons": ["weapon-small-dagger"],
+    "suggestedArmor": ["armor-gambeson", "armor-leather"],
+    "startingInventory": ["item-backpack", "item-bedroll", "item-rations", "item-set-of-bones", "item-minor-healing-potion", "item-mysterious-trinket"]
+  },
+  {
+    "id": "class-guardian",
+    "name": "Guardian",
+    "description": "Guardians are unyielding protectors whose presence on the line is a comfort to allies and a problem for everyone else. They draw on the domains of Valor and Blade to shield those who cannot shield themselves.",
+    "domains": ["domain-valor", "domain-blade"],
+    "startingEvasion": 9,
+    "startingHitPoints": 7,
+    "classFeature": {
+      "name": "Unstoppable",
+      "text": "Mark a Stress to ignore the damage from one incoming attack, reducing it to zero. You can use this feature once per encounter."
+    },
+    "hopeFeature": {
+      "name": "Frontline Tank",
+      "text": "Spend 3 Hope to clear 2 Armor Slots. While you have Armor Slots remaining, you can use them to reduce incoming damage as usual."
+    },
+    "suggestedPrimaryWeapons": ["weapon-battleaxe", "weapon-warhammer", "weapon-greatsword", "weapon-halberd"],
+    "suggestedSecondaryWeapons": ["weapon-tower-shield", "weapon-round-shield"],
+    "suggestedArmor": ["armor-chainmail", "armor-full-plate"],
+    "startingInventory": ["item-backpack", "item-bedroll", "item-rations", "item-whetstone", "item-minor-healing-potion", "item-trophy-from-fallen-foe"]
+  },
+  {
+    "id": "class-ranger",
+    "name": "Ranger",
+    "description": "Rangers are wilderness experts whose precision and patience let them strike at long range and survive where others cannot. They draw on the domains of Bone and Sage to hunt and to read the land.",
+    "domains": ["domain-bone", "domain-sage"],
+    "startingEvasion": 12,
+    "startingHitPoints": 6,
+    "classFeature": {
+      "name": "Ranger's Focus",
+      "text": "Spend a Hope to mark a target you can see as your Focus. While your Focus is active, you gain a +1 bonus to attack rolls against that target. You can change your Focus during a rest, or for free at the start of a new encounter."
+    },
+    "hopeFeature": {
+      "name": "Hold Them Off",
+      "text": "Spend 3 Hope to roll your damage dice twice for an attack against your Focus, taking the higher result."
+    },
+    "suggestedPrimaryWeapons": ["weapon-longbow", "weapon-shortbow", "weapon-crossbow"],
+    "suggestedSecondaryWeapons": ["weapon-small-dagger", "weapon-throwing-knives"],
+    "suggestedArmor": ["armor-leather", "armor-gambeson"],
+    "startingInventory": ["item-backpack", "item-bedroll", "item-rations", "item-rope-50ft", "item-minor-healing-potion", "item-trophy-from-fallen-foe"]
+  },
+  {
+    "id": "class-rogue",
+    "name": "Rogue",
+    "description": "Rogues are quick-witted opportunists whose value comes from being where no one expects them. They draw on the domains of Midnight and Grace to slip through shadows and through conversations alike.",
+    "domains": ["domain-midnight", "domain-grace"],
+    "startingEvasion": 12,
+    "startingHitPoints": 6,
+    "classFeature": {
+      "name": "Sneak Attack",
+      "text": "When you succeed on an attack against a creature that is unaware of you, or that you have advantage against, add an additional 1d6 phy damage. This bonus increases as you gain tiers."
+    },
+    "hopeFeature": {
+      "name": "Rogue's Dodge",
+      "text": "Spend 3 Hope to grant yourself a +2 bonus to Evasion until you make an attack or until your next rest."
+    },
+    "suggestedPrimaryWeapons": ["weapon-dagger", "weapon-rapier", "weapon-throwing-daggers", "weapon-hand-crossbow"],
+    "suggestedSecondaryWeapons": ["weapon-small-dagger", "weapon-throwing-knives"],
+    "suggestedArmor": ["armor-gambeson", "armor-leather"],
+    "startingInventory": ["item-backpack", "item-bedroll", "item-rations", "item-deck-of-cards", "item-minor-healing-potion", "item-mysterious-trinket"]
+  },
+  {
+    "id": "class-seraph",
+    "name": "Seraph",
+    "description": "Seraphs are divine champions whose convictions are made manifest in light and steel. They draw on the domains of Splendor and Valor to heal, to ward, and to strike for the powers they serve.",
+    "domains": ["domain-splendor", "domain-valor"],
+    "startingEvasion": 9,
+    "startingHitPoints": 7,
+    "classFeature": {
+      "name": "Prayer Dice",
+      "text": "At the start of each session, gain a pool of d4 Prayer Dice equal to your level. You can spend any number of Prayer Dice when an ally within Close range makes a roll, rolling them and adding the total to that roll. Replenish the pool at your next long rest."
+    },
+    "hopeFeature": {
+      "name": "Life Support",
+      "text": "Spend 3 Hope to clear a Hit Point on an ally within Close range."
+    },
+    "suggestedPrimaryWeapons": ["weapon-longsword", "weapon-warhammer", "weapon-mace"],
+    "suggestedSecondaryWeapons": ["weapon-round-shield", "weapon-tower-shield"],
+    "suggestedArmor": ["armor-chainmail", "armor-full-plate"],
+    "startingInventory": ["item-backpack", "item-bedroll", "item-rations", "item-holy-symbol", "item-minor-healing-potion", "item-mysterious-trinket"]
+  },
+  {
+    "id": "class-sorcerer",
+    "name": "Sorcerer",
+    "description": "Sorcerers are vessels of innate magic whose power surges from heritage, chance, or accident rather than study. They draw on the domains of Arcana and Midnight to shape raw forces and to keep their workings hidden.",
+    "domains": ["domain-arcana", "domain-midnight"],
+    "startingEvasion": 10,
+    "startingHitPoints": 6,
+    "classFeature": {
+      "name": "Volatile Magic",
+      "text": "When you make a spell attack roll, you may mark a Stress to add a d6 to your damage roll. If your Hope die comes up odd, you also take damage equal to half the d6 result (rounded down)."
+    },
+    "hopeFeature": {
+      "name": "Arcane Sense",
+      "text": "Spend 3 Hope to extend your awareness through nearby magic; for the next scene, you can sense the presence and rough nature of any magical effect or item within Far range."
+    },
+    "suggestedPrimaryWeapons": ["weapon-wand", "weapon-staff", "weapon-dagger"],
+    "suggestedSecondaryWeapons": ["weapon-small-dagger"],
+    "suggestedArmor": ["armor-gambeson", "armor-leather"],
+    "startingInventory": ["item-backpack", "item-bedroll", "item-rations", "item-mysterious-trinket", "item-minor-healing-potion", "item-charcoal-and-parchment"]
+  },
+  {
+    "id": "class-warrior",
+    "name": "Warrior",
+    "description": "Warriors are disciplined combatants whose mastery of arms is honed by training, drill, or hard experience. They draw on the domains of Blade and Bone to dominate the battlefield through skill and tactics.",
+    "domains": ["domain-blade", "domain-bone"],
+    "startingEvasion": 11,
+    "startingHitPoints": 6,
+    "classFeature": {
+      "name": "Attack of Opportunity",
+      "text": "When an adversary leaves Melee range with you, you can spend a Hope to make an attack against them as they go."
+    },
+    "hopeFeature": {
+      "name": "No Mercy",
+      "text": "Spend 3 Hope to gain advantage on your next attack roll."
+    },
+    "suggestedPrimaryWeapons": ["weapon-longsword", "weapon-battleaxe", "weapon-greatsword", "weapon-warhammer", "weapon-halberd"],
+    "suggestedSecondaryWeapons": ["weapon-round-shield", "weapon-small-dagger"],
+    "suggestedArmor": ["armor-chainmail", "armor-leather"],
+    "startingInventory": ["item-backpack", "item-bedroll", "item-rations", "item-whetstone", "item-minor-healing-potion", "item-trophy-from-fallen-foe"]
+  },
+  {
+    "id": "class-wizard",
+    "name": "Wizard",
+    "description": "Wizards are scholarly mages whose power comes from disciplined study of arcane principles. They draw on the domains of Codex and Splendor to weave precise, measured spells and to mend with the same intellect.",
+    "domains": ["domain-codex", "domain-splendor"],
+    "startingEvasion": 11,
+    "startingHitPoints": 5,
+    "classFeature": {
+      "name": "Strange Patterns",
+      "text": "Once per session, choose a number between 1 and 12. When you roll your Hope or Fear die and the result matches your chosen number, treat the roll as if it had come up critical."
+    },
+    "hopeFeature": {
+      "name": "Not This Time",
+      "text": "Spend 3 Hope to force an adversary within Far range to reroll an attack against you or an ally within Close range."
+    },
+    "suggestedPrimaryWeapons": ["weapon-staff", "weapon-wand", "weapon-quarterstaff"],
+    "suggestedSecondaryWeapons": ["weapon-small-dagger"],
+    "suggestedArmor": ["armor-gambeson", "armor-leather"],
+    "startingInventory": ["item-backpack", "item-bedroll", "item-rations", "item-book-of-spells", "item-minor-healing-potion", "item-charcoal-and-parchment"]
+  }
+]

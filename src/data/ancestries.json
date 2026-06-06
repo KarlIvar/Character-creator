@@ -1,0 +1,272 @@
+[
+  {
+    "id": "ancestry-clank",
+    "name": "Clank",
+    "description": "Sentient mechanical beings of metal, gears, and animating spark. Clanks are built — by themselves, by their kind, or by the artisans of forgotten ages — and each is a unique expression of purpose and craft.",
+    "features": [
+      {
+        "name": "Purposeful Design",
+        "text": "Decide who designed you and for what purpose. At character creation, choose one of your Experiences that relates to that purpose and gain a permanent +1 bonus to it."
+      },
+      {
+        "name": "Efficient",
+        "text": "When you take a short rest, you may choose a long rest move instead of a short rest move."
+      }
+    ]
+  },
+  {
+    "id": "ancestry-drakona",
+    "name": "Drakona",
+    "description": "Reptilian heirs of dragons, the Drakona blend draconic majesty with the cares of mortal life. Their scaled hides come in countless hues that hint at the elemental breath they wield.",
+    "features": [
+      {
+        "name": "Scales",
+        "text": "Your scales are tough. When you take Severe damage, you can mark a Stress to mark 1 fewer Hit Point."
+      },
+      {
+        "name": "Elemental Breath",
+        "text": "Choose an element associated with your lineage (fire, ice, lightning, acid, or poison). You can use your breath as an Instinct-based weapon at Very Close range, dealing d8 magic damage."
+      }
+    ]
+  },
+  {
+    "id": "ancestry-dwarf",
+    "name": "Dwarf",
+    "description": "Stout, deliberate, and famously enduring, dwarves are folk of stone, craft, and clan. They favor places shaped by patient hands — vaulted halls, terraced mines, and ancestral hearths.",
+    "features": [
+      {
+        "name": "Thick Skin",
+        "text": "When you take Minor damage, you can mark 2 Stress instead of marking a Hit Point."
+      },
+      {
+        "name": "Increased Fortitude",
+        "text": "You may spend 3 Hope to halve incoming physical damage."
+      }
+    ]
+  },
+  {
+    "id": "ancestry-elf",
+    "name": "Elf",
+    "description": "Long-lived and keen-sensed, elves move through the world with the patience of those who have watched centuries pass. Their dreams are shallow and walking, and their gaze sees far.",
+    "features": [
+      {
+        "name": "Quick Reactions",
+        "text": "Mark a Stress to gain advantage on a reaction roll."
+      },
+      {
+        "name": "Celestial Trance",
+        "text": "During a rest, you can enter a meditative trance instead of sleeping. While in trance you remain dimly aware of your surroundings; you gain the benefits of a long rest in half the time."
+      }
+    ]
+  },
+  {
+    "id": "ancestry-faerie",
+    "name": "Faerie",
+    "description": "Diminutive winged folk steeped in glamour and contradiction. Faeries pass between the wild places and the mortal world, leaving mischief, riddles, and small kindnesses in their wake.",
+    "features": [
+      {
+        "name": "Luckbender",
+        "text": "Once per session, after rolling the Duality Dice, you can spend 3 Hope to reroll your Hope die or Fear die."
+      },
+      {
+        "name": "Wings",
+        "text": "You have functional wings and can fly. While flying, mark a Stress to gain advantage on a roll that uses Agility."
+      }
+    ]
+  },
+  {
+    "id": "ancestry-faun",
+    "name": "Faun",
+    "description": "Goat-legged folk with sharp horns and a love of open country. Fauns are sure-footed, quick to laugh, and quick to butt heads with anyone who underestimates them.",
+    "features": [
+      {
+        "name": "Caprine Leap",
+        "text": "You can jump up to twice your normal distance, including across gaps, without making an Agility roll, so long as the landing is no more than half your starting height below you."
+      },
+      {
+        "name": "Kick",
+        "text": "When you succeed on an attack with your hooves, you can mark a Stress to knock the target back one zone."
+      }
+    ]
+  },
+  {
+    "id": "ancestry-firbolg",
+    "name": "Firbolg",
+    "description": "Towering, bovine-featured folk with deep ties to the land. Firbolg communities favor quiet stewardship over conquest, but when roused, they are an avalanche on legs.",
+    "features": [
+      {
+        "name": "Charge",
+        "text": "When you move into range of a target and immediately attack them, gain a +2 bonus to the attack roll."
+      },
+      {
+        "name": "Unshakable",
+        "text": "When you would be forced to move against your will, mark a Stress to ignore the movement."
+      }
+    ]
+  },
+  {
+    "id": "ancestry-fungril",
+    "name": "Fungril",
+    "description": "Sentient fungal folk whose bodies are fruiting expressions of a wider mycelial mind. Fungril speak slowly when at all, and feel the world through the soil beneath their roots.",
+    "features": [
+      {
+        "name": "Fungril Network",
+        "text": "Make an Instinct roll to send a brief telepathic message through the fungal network to another Fungril, even at great distance. The difficulty rises with the distance and the unfamiliarity of the recipient."
+      },
+      {
+        "name": "Death Connection",
+        "text": "While in physical contact with a recently deceased creature, you can mark a Stress to recall one short memory from its life."
+      }
+    ]
+  },
+  {
+    "id": "ancestry-galapa",
+    "name": "Galapa",
+    "description": "Slow-spoken, patient, and shelled, the Galapa are turtle-kin whose lives are measured in seasons rather than days. They make implacable friends and unshakable witnesses.",
+    "features": [
+      {
+        "name": "Shell",
+        "text": "Your shell counts as armor. You gain a +2 bonus to your damage thresholds."
+      },
+      {
+        "name": "Retract",
+        "text": "Mark a Stress to retract into your shell. Until your next turn, gain a +2 bonus to your Evasion but you cannot move or take other actions."
+      }
+    ]
+  },
+  {
+    "id": "ancestry-giant",
+    "name": "Giant",
+    "description": "Tall by any standard, giants are heir to old skies and older mountains. Their stride covers ground, their voices carry, and their patience can break a siege.",
+    "features": [
+      {
+        "name": "Endurance",
+        "text": "Gain an additional Hit Point slot at character creation."
+      },
+      {
+        "name": "Reach",
+        "text": "Treat your Melee range as Very Close range."
+      }
+    ]
+  },
+  {
+    "id": "ancestry-goblin",
+    "name": "Goblin",
+    "description": "Small, sharp, and ferociously inventive. Goblins survive by knowing the layout of every room they enter and the value of every coin they carry.",
+    "features": [
+      {
+        "name": "Surefooted",
+        "text": "You ignore difficult terrain caused by uneven ground, rubble, or undergrowth."
+      },
+      {
+        "name": "Danger Sense",
+        "text": "Once per rest, when you would be surprised, you may instead act normally on the first round of the encounter."
+      }
+    ]
+  },
+  {
+    "id": "ancestry-halfling",
+    "name": "Halfling",
+    "description": "Compact, sociable folk with a knack for being where they need to be. Halflings love a hearth, a road, and a story that makes the table louder.",
+    "features": [
+      {
+        "name": "Luckbringer",
+        "text": "At the start of each session, gain an additional Hope."
+      },
+      {
+        "name": "Internal Compass",
+        "text": "When you fail a roll to navigate or to recall a direction you have traveled before, you can reroll one of the dice."
+      }
+    ]
+  },
+  {
+    "id": "ancestry-human",
+    "name": "Human",
+    "description": "Adaptable, ambitious, and astonishingly varied. Humans take up every craft and every cause, and their communities mark the map from coast to mountain to wilderness.",
+    "features": [
+      {
+        "name": "High Stamina",
+        "text": "Gain an additional Stress slot at character creation."
+      },
+      {
+        "name": "Adaptability",
+        "text": "When you fail a roll that used one of your Experiences, you may mark a Stress to reroll."
+      }
+    ]
+  },
+  {
+    "id": "ancestry-infernis",
+    "name": "Infernis",
+    "description": "Heirs of infernal pacts and demon-touched bloodlines. Infernis carry horns, tails, and a presence that people remember whether they want to or not.",
+    "features": [
+      {
+        "name": "Fearless",
+        "text": "When you roll with Fear, you may mark a Stress to treat the roll as if you had rolled with Hope instead."
+      },
+      {
+        "name": "Dread Visage",
+        "text": "You have advantage on rolls to intimidate a hostile creature."
+      }
+    ]
+  },
+  {
+    "id": "ancestry-katari",
+    "name": "Katari",
+    "description": "Cat-kin who move with predatory grace and curiosity. Katari communities are loose, opinionated, and quick to claim the best perch in any room.",
+    "features": [
+      {
+        "name": "Feline Instincts",
+        "text": "When you make an Agility roll, you can spend 2 Hope to reroll your Hope die."
+      },
+      {
+        "name": "Retracting Claws",
+        "text": "You can make unarmed attacks with your claws as a Finesse weapon at Melee range, dealing d6 physical damage."
+      }
+    ]
+  },
+  {
+    "id": "ancestry-orc",
+    "name": "Orc",
+    "description": "Tusked, broad-shouldered, and proud, orcs are folk of strong bonds and stronger oaths. Their songs are old and their grudges are older.",
+    "features": [
+      {
+        "name": "Sharp Tusks",
+        "text": "You can make unarmed attacks with your tusks as a Strength weapon at Melee range, dealing d6 physical damage."
+      },
+      {
+        "name": "Tactics",
+        "text": "When you Help an Ally, the ally gains a +3 bonus instead of the usual bonus."
+      }
+    ]
+  },
+  {
+    "id": "ancestry-ribbet",
+    "name": "Ribbet",
+    "description": "Amphibious folk of the marshes and shores. Ribbets are calm in motion and unhurried in conversation, with eyes that miss very little.",
+    "features": [
+      {
+        "name": "Amphibious",
+        "text": "You can breathe underwater and ignore swimming difficulties."
+      },
+      {
+        "name": "Long Tongue",
+        "text": "You can use your tongue as a Finesse weapon at Very Close range, dealing d4 physical damage. On a success, you can pull a Tiny object or unattended item to your hand."
+      }
+    ]
+  },
+  {
+    "id": "ancestry-simiah",
+    "name": "Simiah",
+    "description": "Monkey-kin with quick hands and quicker wits. Simiah climb, swing, and improvise their way through trouble, often before their companions realize trouble has begun.",
+    "features": [
+      {
+        "name": "Natural Climber",
+        "text": "You gain advantage on Agility rolls to climb, swing, or move through trees and difficult vertical terrain."
+      },
+      {
+        "name": "Prehensile Tail",
+        "text": "Your tail can hold or manipulate one small object as if it were a third hand, but cannot wield a weapon."
+      }
+    ]
+  }
+]

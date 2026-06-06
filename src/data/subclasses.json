@@ -1,0 +1,326 @@
+[
+  {
+    "id": "subclass-bard-troubadour",
+    "classId": "class-bard",
+    "name": "Troubadour",
+    "spellcastTrait": "Presence",
+    "foundationFeatures": [
+      {
+        "name": "Gifted Performer",
+        "text": "When you play your instrument during a downtime move, you may choose a friendly player; both of you gain a Hope at the start of the next session."
+      },
+      {
+        "name": "Heart-Stirring Song",
+        "text": "Once per long rest, you may perform for an ally within Close range; they clear a number of Stress equal to your Presence (minimum 1)."
+      }
+    ],
+    "specializationFeatures": [],
+    "masteryFeatures": []
+  },
+  {
+    "id": "subclass-bard-wordsmith",
+    "classId": "class-bard",
+    "name": "Wordsmith",
+    "spellcastTrait": "Presence",
+    "foundationFeatures": [
+      {
+        "name": "Eloquent",
+        "text": "Gain a +1 bonus to rolls to persuade, deceive, or unsettle a creature that can understand you."
+      },
+      {
+        "name": "Rousing Speech",
+        "text": "Once per long rest, deliver a stirring speech. Each ally within Close range may clear a Stress."
+      }
+    ],
+    "specializationFeatures": [],
+    "masteryFeatures": []
+  },
+  {
+    "id": "subclass-druid-warden-of-the-elements",
+    "classId": "class-druid",
+    "name": "Warden of the Elements",
+    "spellcastTrait": "Instinct",
+    "foundationFeatures": [
+      {
+        "name": "Elemental Incarnation",
+        "text": "When you Beastform, choose an element (fire, water, earth, or air). Your beast form deals magic damage of that element type and gains a thematic minor trait (e.g., move across water, ignore difficult terrain on stone)."
+      },
+      {
+        "name": "Elemental Burst",
+        "text": "Once per rest, when you take damage from an elemental source, you may release a burst of the matching element; each adjacent enemy takes 1d6 mag damage."
+      }
+    ],
+    "specializationFeatures": [],
+    "masteryFeatures": []
+  },
+  {
+    "id": "subclass-druid-warden-of-renewal",
+    "classId": "class-druid",
+    "name": "Warden of Renewal",
+    "spellcastTrait": "Instinct",
+    "foundationFeatures": [
+      {
+        "name": "Gift of Growth",
+        "text": "When you make a successful spellcast roll, you may clear a Hit Point on yourself or an ally within Close range instead of dealing damage."
+      },
+      {
+        "name": "Verdant Recovery",
+        "text": "When you take a short rest in a natural environment, you and any allies resting with you each clear an additional Stress."
+      }
+    ],
+    "specializationFeatures": [],
+    "masteryFeatures": []
+  },
+  {
+    "id": "subclass-guardian-stalwart",
+    "classId": "class-guardian",
+    "name": "Stalwart",
+    "spellcastTrait": null,
+    "foundationFeatures": [
+      {
+        "name": "Held Ground",
+        "text": "When an ally within Close range takes damage, you may mark a Stress to take that damage in their place."
+      },
+      {
+        "name": "Unmoveable",
+        "text": "You have advantage on rolls to resist being moved, knocked down, or grappled."
+      }
+    ],
+    "specializationFeatures": [],
+    "masteryFeatures": []
+  },
+  {
+    "id": "subclass-guardian-vengeance",
+    "classId": "class-guardian",
+    "name": "Vengeance",
+    "spellcastTrait": null,
+    "foundationFeatures": [
+      {
+        "name": "At Ease",
+        "text": "When you take Severe damage, mark a Stress to add a d6 to your next attack roll against the source."
+      },
+      {
+        "name": "Revenge",
+        "text": "Once per encounter, when an adversary deals damage to you, you can spend a Hope to immediately make an attack against them."
+      }
+    ],
+    "specializationFeatures": [],
+    "masteryFeatures": []
+  },
+  {
+    "id": "subclass-ranger-beastbound",
+    "classId": "class-ranger",
+    "name": "Beastbound",
+    "spellcastTrait": "Agility",
+    "foundationFeatures": [
+      {
+        "name": "Animal Companion",
+        "text": "You have a small or medium animal companion. It acts on your turn and shares your Hope, Stress, and Hit Point pools. Its features are detailed on a separate companion sheet."
+      },
+      {
+        "name": "Pack Tactics",
+        "text": "When you attack an adversary that your companion is adjacent to, gain a +1 bonus to the attack roll."
+      }
+    ],
+    "specializationFeatures": [],
+    "masteryFeatures": []
+  },
+  {
+    "id": "subclass-ranger-wayfinder",
+    "classId": "class-ranger",
+    "name": "Wayfinder",
+    "spellcastTrait": "Agility",
+    "foundationFeatures": [
+      {
+        "name": "Path Sense",
+        "text": "Gain advantage on rolls to navigate, track, or determine direction in any natural or wild environment."
+      },
+      {
+        "name": "Marked for Death",
+        "text": "When you mark a creature as your Ranger's Focus, you also know that creature's general location at all times while it remains within Far range."
+      }
+    ],
+    "specializationFeatures": [],
+    "masteryFeatures": []
+  },
+  {
+    "id": "subclass-rogue-nightwalker",
+    "classId": "class-rogue",
+    "name": "Nightwalker",
+    "spellcastTrait": "Finesse",
+    "foundationFeatures": [
+      {
+        "name": "Shadow Step",
+        "text": "Once per rest, you may spend a Hope to teleport from one shadow to another within Close range. You appear hidden if no enemy has a direct line of sight to your destination."
+      },
+      {
+        "name": "Cloak of Shadows",
+        "text": "When you take a Stress to avoid an attack, you also become hidden until the start of your next turn."
+      }
+    ],
+    "specializationFeatures": [],
+    "masteryFeatures": []
+  },
+  {
+    "id": "subclass-rogue-syndicate",
+    "classId": "class-rogue",
+    "name": "Syndicate",
+    "spellcastTrait": "Finesse",
+    "foundationFeatures": [
+      {
+        "name": "Contacts Everywhere",
+        "text": "Once per session, declare that you know someone useful in this town, city, or organization. The GM decides exactly who they are and how willing they are to help."
+      },
+      {
+        "name": "Backup",
+        "text": "When you spend a Hope to gain advantage on a Finesse roll, an unseen ally also provides assistance: the roll gains an additional +1 bonus."
+      }
+    ],
+    "specializationFeatures": [],
+    "masteryFeatures": []
+  },
+  {
+    "id": "subclass-seraph-divine-wielder",
+    "classId": "class-seraph",
+    "name": "Divine Wielder",
+    "spellcastTrait": "Strength",
+    "foundationFeatures": [
+      {
+        "name": "Spirit Weapon",
+        "text": "Your primary weapon is bound to a divine spirit. When you make a damage roll with it, you may add your Strength to the result a second time by spending a Hope."
+      },
+      {
+        "name": "Sacred Resolve",
+        "text": "When you would mark your last Hit Point, you may mark 2 Stress instead to remain standing with 1 Hit Point. Usable once per long rest."
+      }
+    ],
+    "specializationFeatures": [],
+    "masteryFeatures": []
+  },
+  {
+    "id": "subclass-seraph-winged-sentinel",
+    "classId": "class-seraph",
+    "name": "Winged Sentinel",
+    "spellcastTrait": "Strength",
+    "foundationFeatures": [
+      {
+        "name": "Wings",
+        "text": "You have functional wings and can fly. While flying, you can move at the same speed as on the ground and ignore difficult terrain on the ground."
+      },
+      {
+        "name": "Aerial Strike",
+        "text": "When you attack from above with a Strength weapon after a fly move, gain a +1 bonus to the damage roll."
+      }
+    ],
+    "specializationFeatures": [],
+    "masteryFeatures": []
+  },
+  {
+    "id": "subclass-sorcerer-elemental-origin",
+    "classId": "class-sorcerer",
+    "name": "Elemental Origin",
+    "spellcastTrait": "Instinct",
+    "foundationFeatures": [
+      {
+        "name": "Elemental Manipulation",
+        "text": "Choose an element (fire, water, earth, air, or lightning). When you cast a damaging spell, you may change its damage type to your chosen element at no cost."
+      },
+      {
+        "name": "Elemental Armor",
+        "text": "Once per long rest, when you take damage of your chosen element type, you may halve it before applying it."
+      }
+    ],
+    "specializationFeatures": [],
+    "masteryFeatures": []
+  },
+  {
+    "id": "subclass-sorcerer-primal-origin",
+    "classId": "class-sorcerer",
+    "name": "Primal Origin",
+    "spellcastTrait": "Instinct",
+    "foundationFeatures": [
+      {
+        "name": "Manipulate Magic",
+        "text": "When you make a spellcast roll, you may spend a Hope to change the spell's range by one step (Close to Far, Far to Very Far, etc.)."
+      },
+      {
+        "name": "Primal Surge",
+        "text": "Once per rest, when you roll your damage dice for a spell, you may roll an additional damage die of the same size and add it to the total."
+      }
+    ],
+    "specializationFeatures": [],
+    "masteryFeatures": []
+  },
+  {
+    "id": "subclass-warrior-call-of-the-brave",
+    "classId": "class-warrior",
+    "name": "Call of the Brave",
+    "spellcastTrait": null,
+    "foundationFeatures": [
+      {
+        "name": "Courage",
+        "text": "When you mark your last Hit Point in an encounter, you and each ally within Close range gain a Hope."
+      },
+      {
+        "name": "Battle-Hardened",
+        "text": "When you would take Major damage, you may mark a Stress to reduce it to Minor damage. Usable once per encounter."
+      }
+    ],
+    "specializationFeatures": [],
+    "masteryFeatures": []
+  },
+  {
+    "id": "subclass-warrior-call-of-the-slayer",
+    "classId": "class-warrior",
+    "name": "Call of the Slayer",
+    "spellcastTrait": null,
+    "foundationFeatures": [
+      {
+        "name": "Slayer's Edge",
+        "text": "When you score a critical hit on an attack, the target marks an additional Hit Point."
+      },
+      {
+        "name": "Bloodied Resolve",
+        "text": "While you have marked half or more of your Hit Points, gain a +1 bonus to your attack and damage rolls."
+      }
+    ],
+    "specializationFeatures": [],
+    "masteryFeatures": []
+  },
+  {
+    "id": "subclass-wizard-school-of-knowledge",
+    "classId": "class-wizard",
+    "name": "School of Knowledge",
+    "spellcastTrait": "Knowledge",
+    "foundationFeatures": [
+      {
+        "name": "Prepared",
+        "text": "Take an extra domain card of your level or lower at character creation. It does not count against your loadout limit."
+      },
+      {
+        "name": "Adept",
+        "text": "When you make a roll to recall information about a subject you have studied, you may treat any result below a 10 as if it had been a 10."
+      }
+    ],
+    "specializationFeatures": [],
+    "masteryFeatures": []
+  },
+  {
+    "id": "subclass-wizard-school-of-war",
+    "classId": "class-wizard",
+    "name": "School of War",
+    "spellcastTrait": "Knowledge",
+    "foundationFeatures": [
+      {
+        "name": "Battle Mage",
+        "text": "Gain an additional Hit Point slot at character creation. You may also wear chainmail or leather armor without spellcasting penalty."
+      },
+      {
+        "name": "Face Your Fate",
+        "text": "Once per long rest, when you fail a spellcast roll, you may spend a Hope to treat it as a success instead, marking 2 Stress."
+      }
+    ],
+    "specializationFeatures": [],
+    "masteryFeatures": []
+  }
+]

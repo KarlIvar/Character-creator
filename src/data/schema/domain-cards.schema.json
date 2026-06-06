@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/daggerheart/domain-cards.schema.json",
+  "title": "Domain Cards",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["id", "domainId", "name", "level", "recallCost", "type", "text"],
+    "properties": {
+      "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+      "domainId": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+      "name": { "type": "string" },
+      "level": { "type": "integer", "minimum": 1, "maximum": 10 },
+      "recallCost": { "type": "integer", "minimum": 0 },
+      "type": { "type": "string", "enum": ["Ability", "Spell", "Grimoire"] },
+      "text": { "type": "string" }
+    }
+  }
+}
