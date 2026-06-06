@@ -10,3 +10,13 @@ npm-debug.log*
 # Build artifacts (introduced by Thread 2)
 dist/
 build/
+coverage/
+.vite/
+
+# Logs
+*.log
+
+# Env files
+.env
+.env.*
+!.env.example
